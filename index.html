@@ -21,7 +21,7 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -41,6 +41,15 @@
   }
   .portfolio-category {
     text-align: center;
+  }
+  .skills {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    text-align: center;
+    list-style: none;
   }
 </style>
 <body id="page-top" class="index">
@@ -187,8 +196,36 @@
                     <p>Hi! I'm Kevin Cunanan. I am currently a sophomore attending Claremont McKenna College double majoring in Computer Science and Philosophy.</p>
                 </div>
                 <div class="col-lg-4">
-                    <p>I consider myself a fledgling full stack developer who learns by doing. Recent projects have focused on web scraping, data visualizations, and information consolidation. Internships like Code For America have taught me to always focus on the user's needs to ensure that we deliver things that matter.</p>
+                    <p>I consider myself a full stack developer who learns by doing. Recent projects have focused on web scraping, data visualization, and information consolidation. Internships like Code For America have taught me to always focus on the user's needs to ensure that we deliver things that matter.</p>
                 </div>
+            </div>
+            <div class="col-lg-12 text-center">
+                <h2>Skills</h2>
+                <hr class="star-light">
+            </div>
+            <div class="row skills">
+              <div class="col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1">
+                <h6>Languages</h6>
+                <li>PHP</li>
+                <li>MySQL</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>SML</li>
+                <li>Liquid</li>
+
+
+              </div>
+              <div class="col-lg-3 col-md-3">
+                <h6>Frameworks</h6>
+                <li></li>
+              </div>
+              <div class="col-lg-3 col-md-3">
+                <h6>Programs</h6>
+                <li></li>
+              </div>
             </div>
         </div>
     </section>
@@ -231,7 +268,7 @@
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Message</label>
-                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <textarea rows="5" class="form-control" placeholder="Message" id="message" name="message" required data-validation-required-message="Please enter a message."></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
