@@ -68,6 +68,12 @@
   .about-below {
     margin-top: 50px;
   }
+  #feHomepage {
+    margin-bottom: 0;
+  }
+  div.modal-content a {
+    text-decoration: underline;
+  }
 </style>
 <body id="page-top" class="index">
 
@@ -392,16 +398,20 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>Find Enchiladas</h2>
+                            <h6>TL;DR: Favorite Food Scraper using Laravel 5, MySQL 5, Twilio API, HTML, CSS, JavaScript</h6>
                             <hr class="star-primary">
-                            <img src="img/portfolio/FindEnchiladas/feSMS.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <div><a href="http://findenchiladas.com"><img src="img/portfolio/FindEnchiladas/homepage.png" class="img-responsive img-centered" id="feHomepage" alt=""></a></div>
+                            <p><a href="https://github.com/Find-Enchiladas/findenchiladas">Find Enchiladas</a> is my first web development project. Originally created as part of a <a href="http://www1.cmc.edu/pages/faculty/alee/">Distributive Software Architecture</a> class project, we decided to continue developing the application.</p>
+                            <p>The goal of Find Enchiladas was to search 7 different dining hall menus based off someone's favorite foods. But, we wanted something more. As college students, it's hard to check the menu everyday when we are running across campus. To accomodate that, we implemented the Twilio messaging API to send text messages using a Cron.</p>
+                            <p>My project partner, <a href="https://www.linkedin.com/in/andrewatwong">Andrew Atwong</a>, and I recently put this project into Laravel to better consolidate and organize our code. At some point, we plan to include further improvements such as nuanced preferences, better searches, and maybe even mobile apps.</p>
+                            <div><img src="img/portfolio/FindEnchiladas/feSMS.png" class="img-responsive img-centered" id="feSMS" alt=""></div>
                             <ul class="list-inline item-details">
                                 <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                    <strong><a href="http://startbootstrap.com">The Claremont Colleges</a>
                                     </strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                    <strong><a href="http://startbootstrap.com">March 2014</a>
                                     </strong>
                                 </li>
                                 <li>Service:
