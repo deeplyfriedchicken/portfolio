@@ -5,6 +5,19 @@
 {% include head.html %}
 
 <style>
+  @media (max-width: 767px) {
+    .disappear-mobile {
+      display: none;
+    }
+  }
+  @media (min-width:991px) {
+    .skills {
+      padding-left: 75px;
+    }
+    #full-stack {
+      padding-left: 0;
+    }
+  }
   .footer-a {
     color: #fff;
     text-decoration: underline;
@@ -24,15 +37,6 @@
     line-height: 22px;
     text-align: center;
     list-style: none;
-  }
-
-  @media (min-width:991px) {
-    .skills {
-      padding-left: 75px;
-    }
-    #full-stack {
-      padding-left: 0;
-    }
   }
   .year-end {
     color: #FFFFFF;
@@ -81,6 +85,9 @@
   }
   a:hover {
     color: #fff;
+  }
+  .special-highlight a:hover {
+    color: #399fd3;
   }
 </style>
 
@@ -194,7 +201,7 @@
                         <img src="img/portfolio/FindEnchiladas/new-logo.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="disappear-mobile col-sm-4 portfolio-item">
                     <a href="" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -204,7 +211,7 @@
                         <img src="img/portfolio/comingsoon.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <div class="disappear-mobile col-sm-4 portfolio-item">
                       <a href="" class="portfolio-link" data-toggle="modal">
                           <div class="caption">
                               <div class="caption-content">
