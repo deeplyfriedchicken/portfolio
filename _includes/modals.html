@@ -51,6 +51,20 @@
                     <div class="modal-body">
                         <h2>Robert Day School Case Competition</h2>
                         <h6>Updates to this will be coming soon.</h6>
+                        <div class="bss-slides">
+                          {% for i in (1..12) %}
+                            {% if i < 10 %}
+                              {% assign index = 0 | append: i %}
+                            {% else %}
+                              {% assign index = i %}
+                            {% endif %}
+                            <figure>
+                                <img src="img/portfolio/RDS/presentation/Slide{{ index }}.png" width="100%" />
+                                <figcaption>{{ i }}</figcaption>
+                            </figure>
+                          {% endfor %}
+                            <!-- more figures here as needed -->
+                        </div>
                         <hr class="star-primary">
                         <ul class="list-inline item-details special-highlight">
                             <li>Client:
